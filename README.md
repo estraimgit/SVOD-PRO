@@ -8,4 +8,11 @@
   Run `npm i` to install the dependencies.
 
   Run `npm run dev` to start the development server.
+
+  ## Публикация на GitHub Pages
+
+  1. В репозитории откройте **Settings → Pages**.
+  2. В блоке **Build and deployment** в поле **Source** выберите **GitHub Actions**.
+  3. При каждом `push` в ветку `main` workflow соберёт проект и задеплоит сайт.
+  4. Сайт будет доступен по адресу: **https://estraimgit.github.io/SVOD-PRO/**
   
